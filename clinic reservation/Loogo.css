@@ -1,0 +1,68 @@
+
+ #m1{position:absolute;top: 300px;left:610px;border-color:black ;background: none;border-radius:3px;box-shadow:0px 0px 0px 0px #39f}
+ #m1:hover{position:absolute;top: 300px;left:610px;box-shadow:0px 0px 2px 2px #39f; background: none;border-radius:3px;}
+ #m2{position:absolute;top: 360px;left:610px;border-color:black ;background: none;border-radius:3px;box-shadow:0px 0px 0px 0px #39f}
+ #m2:hover{position:absolute;top: 360px;left:610px; background: none;border-radius:3px;box-shadow:0px 0px 2px 2px #39f}
+ #m3{position:absolute;top: 420px;left:610px;border-color:black ;background: none;border-radius:3px;box-shadow:0px 0px 0px 0px #39f}
+ #m3:hover{position:absolute;top: 420px;left:610px;background: none;border-radius:3px;box-shadow:0px 0px 2px 2px #39f} 
+ #n8{position: absolute;top: 660px;left: 50px;}
+         .m4{
+                position:absolute;top: 480px;left:610px;z-index:2;
+                border: 1px solid #700;
+                padding: 1px;
+                color: #fff;
+                background: #F9C;
+                border-radius: 5px ;
+                border: 1.1px solid gray;
+                transition: all 1s;
+                font-size: 18px;
+            }
+
+        .m4:hover
+            {
+                position:absolute;top: 480px;left:610px;z-index:2;
+                border: 1px solid #700;
+                padding: 1px;
+                color: #F9C;
+                background: #fff;
+                border-radius: 5px;
+                border: 1.1px solid gray;
+                transition: all 1s;
+                font-size: 18px;
+            }
+
+         .x1{
+                position: absolute;
+                animation: moving 1s 1 linear;
+                animation-fill-mode: forwards;
+            }
+        @Keyframes moving {
+                        0%, 100%{top:150px;left:600}
+                            100%{top:0px;left:600}
+                          }
+
+                .x2
+                {
+                    height: 100vh;
+                    width: 100%;
+                    background-image: url(b6.jpg);
+                    opacity:1;
+                    background-size:contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+
+                    animation-name: animate;
+                    animation-direction:alternate-reverse;
+                    animation-duration: 7s;
+                    animation-iteration-count: infinite;
+                   
+                }
+                    @Keyframes  animate
+                    {
+                       0%     {background-image: url(b5.jpeg)};
+                       25%    {background-image: url(b2.jpg)};
+                       50%    {background-image: url(b3.jpg)};
+                       75%    {background-image: url(b1.jpg)};
+                       100%   {background-image: url(b4.jpg)};
+                    }
+

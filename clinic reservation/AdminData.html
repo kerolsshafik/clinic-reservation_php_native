@@ -1,0 +1,29 @@
+<?php
+$host="localhost";
+$user="root";
+$pass="12345678";
+$name="clinicdb";
+$connection=mysqli_connect($host,$user,$pass,$name);
+if($connection==false){
+    echo "good";
+}
+else{
+    echo "shit";
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title> Medical clinic </title>
+   <link rel="icon" href="medical_clinic1.PNG" type="image/png">  
+    
+ </head>
+   <body>
+   <center><h1><p><strong>Clients Data</strong></p></h1></center>
+    <hr style="border-top: 6px solid #ddd;">   
+        <a href="project11.html">
+        <button type="button" style="position: absolute;height:30px;width:100px;top:30px;left: 30px";>Back</button>
+         </a>
+    </body>
+</html>
